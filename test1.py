@@ -1,4 +1,4 @@
-
+#fir Git
 import time
 import math
 import os
@@ -35,8 +35,8 @@ formula_result=calc(x)
 field=browser.find_element_by_id('answer')
 field.send_keys(formula_result)
 
-button2 = browser.find_element_by_id('solve')
-button2.click()
+button8 = browser.find_element_by_id('solve')
+button8.click()
 
 #
 
